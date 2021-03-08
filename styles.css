@@ -6,11 +6,16 @@ body {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: underline;
     font-size: 1rem;
 }
 
-.game-border {
-    border: 10px double black;
+a:hover {
+    color: red;
+}
+
+.linkbar {
+    background-color: black;
+    border: 1px solid white;
 }
